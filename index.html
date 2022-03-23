@@ -11,25 +11,32 @@
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
-
   <!-- MAIN PART  -->
 
   <main>
 
+    <div class="range">
+      <label class="range__label" for="text">
+        <textarea class="range__input" name="max30" id="max30" maxlength="30" cols="30" rows="10" placeholder="Max 30" onkeyup="max(event)"></textarea>
+        <span class="range__loadingbox">
+          <span class="range__loading" id="load30"></span>
+        </span>
+      </label>
+      <label class="range__label" for="text">
+        <textarea class="range__input" name="max100" id="max100" maxlength="100" cols="30" rows="10" placeholder="Max 100" onkeyup="max(event)"></textarea>
+        <span class="range__loadingbox">
+          <span class="range__loading" id="load100"></span>
+        </span>
+      </label>
+      <label class="range__label" for="text">
+        <textarea class="range__input" name="max1000" id="max1000" maxlength="1000" cols="30" rows="10" placeholder="Max 1000" onkeyup="max(event)"></textarea>
+        <span class="range__loadingbox">
+          <span class="range__loading" id="load1000"></span>
+        </span>
+      </label>
+    </div>
+
   </main>
-
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
